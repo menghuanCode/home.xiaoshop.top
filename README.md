@@ -1,29 +1,5 @@
-# home.xiaoshop.top
+# v1.0.0
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 引入 axios 用于请求
+2. 使用 vant 作为 ui(按需加载)
+3. 引入 postcss-pxtorem、lib-flexible 做 rem 适配
